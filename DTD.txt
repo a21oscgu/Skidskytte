@@ -1,0 +1,15 @@
+<!ELEMENT skytt (skjutserie*)>
+<!ELEMENT skjutserie(måltavla)>
+<!ELEMENT måltavla(#PCDATA)>
+<!ATTLIST skytt
+    pnr ID #REQUIRED
+    namn ID #IMPLIED
+    lag ID #IMPLIED>
+<!ATTLIST skjutserie
+    starttid ID #REQUIRED
+    pnr IDREF #REQUIRED
+    nr IDREF #REQUIRED
+    resultat ID #IMPLIED>
+<!ATTLIST måltavla
+    nr ID #REQUIRED
+    antal ID #IMPLIED>
