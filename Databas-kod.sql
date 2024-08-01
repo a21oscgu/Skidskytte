@@ -188,4 +188,3 @@ select funktionar.funktionar_namn, funktionar.lon * 1.03 from funktionar where (
 delete from maltavla where maltavla.maltavla_nr = '8';
 #21
 delete from skjutserie where skjutserie.starttid = '12:01:33' and skjutserie.skytt_pnr = '560123-6666';
-#22Test
