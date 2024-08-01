@@ -1,3 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Ensure .sql files are detected as SQL
 *.sql linguist-language=SQL
