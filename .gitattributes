@@ -1,4 +1,3 @@
 # Auto
 *.sql linguist-detectable=true
 *.sql linguist-language=SQL
-*.xml linguist-language=XML
